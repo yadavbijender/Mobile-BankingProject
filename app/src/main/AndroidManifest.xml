@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bijen.banking">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Flash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login" />
+        <activity
+            android:name=".BankingSystem"
+            android:label="@string/title_activity_banking_system"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AddAccount" />
+        <activity android:name=".DeleteAccount" />
+        <activity android:name=".Transition" />
+        <activity android:name=".UpdateAccount" />
+        <activity android:name=".UserAccount" />
+        <activity android:name=".Balance" />
+        <activity android:name=".Feedback" />
+        <activity android:name=".Setting" />
+        <activity android:name=".Help" />
+        <activity android:name=".About" />
+        <activity android:name=".ChangeUserID" />
+        <activity android:name=".Forget" />
+        <activity android:name=".MainActivity"></activity>
+    </application>
+
+</manifest>

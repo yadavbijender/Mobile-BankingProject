@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bijen.banking.Help">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Create and Login"
+            android:textColor="#0d0d0d"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#a9a7a7"
+            android:paddingLeft="30dp"
+            android:text="Create and Login pages are for making the account of user on this application with the help of email address, user name and passward"
+            android:textColor="#e4f52cd0"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Add Account"
+            android:textColor="#0d0d0d"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#a9a7a7"
+            android:paddingLeft="30dp"
+            android:text="Add account is an operation to add the bank account of user in this application so that he can use all the operation of the application on his account"
+            android:textColor="#e4f52cd0"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Update Account"
+            android:textColor="#0d0d0d"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#a9a7a7"
+            android:paddingLeft="30dp"
+            android:text="Update is used to Change the user information if he inserted worng information or some information changes after time"
+            android:textColor="#e4f52cd0"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Transition"
+            android:textColor="#0d0d0d"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#a9a7a7"
+            android:paddingLeft="30dp"
+            android:text="It is to transfer teh money from one bank account to another account"
+            android:textColor="#e4f52cd0"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Delete Account"
+            android:textColor="#0d0d0d"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#a9a7a7"
+            android:paddingLeft="30dp"
+            android:text="If user want to delete your fron application"
+            android:textColor="#e4f52cd0"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="User account and Balance"
+            android:textColor="#0d0d0d"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#a9a7a7"
+            android:paddingLeft="30dp"
+            android:text="Here an your find yourself account as well as personal information with the help of user id. Balance is used to find the amount of money in your bank account"
+            android:textColor="#e4f52cd0"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Setting"
+            android:textColor="#0d0d0d"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#a9a7a7"
+            android:paddingLeft="30dp"
+            android:text="In setting user can gives feedback for the application and also changes user id if he forgot or wanted to changed it"
+            android:textColor="#e4f52cd0"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+</ScrollView>
